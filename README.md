@@ -8,6 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # ✨ AI-Based Resume Builder
 
+# ✨ AI-Based Resume Builder
+
 An intelligent, AI-powered Resume Builder that simplifies the resume creation process. Built with **React**, styled with **Tailwind CSS** (via **shadcn/ui**), and authenticated securely through **Clerk**. Leveraging **Google Gemini AI**, the app helps users generate professional resumes tailored to their goals. **Redux** manages global state seamlessly, and **React Router DOM** handles routing across the app.
 
 ---
@@ -25,7 +27,7 @@ An intelligent, AI-powered Resume Builder that simplifies the resume creation pr
 
 ## 📂 Project Structure
 
-
+src/ ├── components/ # Reusable UI components (shadcn/ui) ├── pages/ # Different pages (Home, Dashboard, Resume Builder) ├── redux/ # Redux slices and store configuration ├── routes/ # React Router DOM route components ├── services/ # API calls (Google Gemini integration) ├── utils/ # Helper functions └── App.jsx # Main app entry point
 
 ---
 
@@ -51,7 +53,7 @@ An intelligent, AI-powered Resume Builder that simplifies the resume creation pr
 
 Example usage:
 
-
+jsx
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 <SignedIn>
@@ -60,21 +62,22 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 <SignedOut>
   <RedirectToSignIn />
 </SignedOut>
-```jsx
 
-
-
-
+    
 🤖 AI Integration (Google Gemini)
 Google Gemini AI powers resume content generation:
 Smart recommendations for different industries
 Auto-generates professional summaries, experience descriptions, etc.
 Implemented through Gemini's API.
 
+
 🗺️ Routing (React Router DOM)
 Multi-page navigation with React Router DOM
 Examples: /home, /dashboard, /resume-builder
 
+jsx
+Copy
+Edit
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 <BrowserRouter>
@@ -93,7 +96,9 @@ Examples:
 Auth state
 Resume data
 UI preferences
-
+jsx
+Copy
+Edit
 import { configureStore } from "@reduxjs/toolkit";
 import resumeReducer from "./resumeSlice";
 
@@ -117,6 +122,7 @@ import { Button } from "@/components/ui/button";
 <Button className="w-full bg-blue-600 text-white">
   Generate Resume
 </Button>
+
 🏁 Getting Started
 Prerequisites
 Node.js (v18+ recommended)
@@ -148,28 +154,16 @@ bash
 Copy
 Edit
 npm run dev
+
 📸 Screenshots
-Dashboard	Resume Builder
-✨ Future Features
-PDF Export functionality
-More AI-powered suggestions
-Multi-language resume support
-Custom themes and templates
-🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Auth
+![image](https://github.com/user-attachments/assets/f84c2941-2baf-482b-aade-8561ea4eaf62)
+Home
+![image](https://github.com/user-attachments/assets/32e058df-5fb0-420c-9154-c61528efecd7)
+On Click of Dashboard
+![image](https://github.com/user-attachments/assets/b7510654-ad56-4d10-8020-b893c998dba5)
 
-📄 License
-MIT License
+![image](https://github.com/user-attachments/assets/ab7a26d1-4066-4ced-83ff-8c8e9b7b043f)
+Resume with Unique UUID
+![image](https://github.com/user-attachments/assets/3b677179-47bb-4709-825e-469baa241edd)
 
-yaml
-Copy
-Edit
-
----
-
-### ✅ How to use it:
-1. Copy the entire content above.
-2. Paste it into your `README.md` file.
-3. Replace the placeholder links (e.g., `https://github.com/your-username/ai-resume-builder.git`) and image paths (`./screenshots/dashboard.png`) with your actual URLs and image files.
-
-Let me know if you want badges or a logo section!
