@@ -51,7 +51,7 @@ An intelligent, AI-powered Resume Builder that simplifies the resume creation pr
 
 Example usage:
 
-```jsx
+
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 <SignedIn>
@@ -60,6 +60,7 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 <SignedOut>
   <RedirectToSignIn />
 </SignedOut>
+```jsx
 
 
 
