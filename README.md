@@ -8,8 +8,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # ✨ AI-Based Resume Builder
 
-# ✨ AI-Based Resume Builder
-
 An intelligent, AI-powered Resume Builder that simplifies the resume creation process. Built with **React**, styled with **Tailwind CSS** (via **shadcn/ui**), and authenticated securely through **Clerk**. Leveraging **Google Gemini AI**, the app helps users generate professional resumes tailored to their goals. **Redux** manages global state seamlessly, and **React Router DOM** handles routing across the app.
 
 ---
