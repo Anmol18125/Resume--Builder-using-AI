@@ -1,4 +1,4 @@
-<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/b7759c0c-0965-408b-bcf8-ef791b1264bc" /># React + Vite
+ React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -157,8 +157,8 @@ npm run dev
 Auth
 ![image](https://github.com/user-attachments/assets/f84c2941-2baf-482b-aade-8561ea4eaf62)
 Home
-![image](<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/b70b3a81-376c-475c-b878-5434d4a307ec" />
-)
+<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/5d1f7119-68da-4f2a-b8c9-72567f4d3442" />
+
 On Click of Dashboard
 ![image](https://github.com/user-attachments/assets/b7510654-ad56-4d10-8020-b893c998dba5)
 
