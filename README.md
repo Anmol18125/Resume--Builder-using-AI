@@ -169,6 +169,6 @@ Edit
 ### ✅ How to use it:
 1. Copy the entire content above.
 2. Paste it into your `README.md` file.
-3. Replace the placeholder links (e.g., `https://github.com/your-username/ai-resume-builder.git`) and image paths (`./screenshots/dashboard.png`) with your actual URLs and image files.
+3. Replacee the placholder links (e.g., `https://github.com/your-username/ai-resume-builder.git`) and image paths (`./screenshots/dashboard.png`) with your actual URLs and image files.
 
 Let me know if you want badges or a logo section!

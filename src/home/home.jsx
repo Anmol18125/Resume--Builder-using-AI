@@ -14,15 +14,13 @@ const HomePage = () => {
       <LoaderCircle className="animate-spin text-primary w-12 h-12 mt-10" />
       
       {/* Optional: Loading text */}
-      <p className="mt-4 text-gray-500">Loading...</p>
+      <p className="mt-4 text-gray-500 flex items-center justify-center h-screen">Loading...</p>
 
 
 
     </div>
 
-    <div>
-      jwhvubfwkfvdbhjnb
-    </div>
+   
     </div>
   )
 }
