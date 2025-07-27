@@ -1,4 +1,4 @@
-# React + Vite
+ React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -25,7 +25,7 @@ An intelligent, AI-powered Resume Builder that simplifies the resume creation pr
 
 ## 📂 Project Structure
 
-
+src/ ├── components/ # Reusable UI components (shadcn/ui) ├── pages/ # Different pages (Home, Dashboard, Resume Builder) ├── redux/ # Redux slices and store configuration ├── routes/ # React Router DOM route components ├── services/ # API calls (Google Gemini integration) ├── utils/ # Helper functions └── App.jsx # Main app entry point
 
 ---
 
@@ -51,7 +51,7 @@ An intelligent, AI-powered Resume Builder that simplifies the resume creation pr
 
 Example usage:
 
-```jsx
+jsx
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 <SignedIn>
@@ -61,19 +61,21 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
   <RedirectToSignIn />
 </SignedOut>
 
-
-
-
+    
 🤖 AI Integration (Google Gemini)
 Google Gemini AI powers resume content generation:
 Smart recommendations for different industries
 Auto-generates professional summaries, experience descriptions, etc.
 Implemented through Gemini's API.
 
+
 🗺️ Routing (React Router DOM)
 Multi-page navigation with React Router DOM
 Examples: /home, /dashboard, /resume-builder
 
+jsx
+Copy
+Edit
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 <BrowserRouter>
@@ -92,7 +94,9 @@ Examples:
 Auth state
 Resume data
 UI preferences
-
+jsx
+Copy
+Edit
 import { configureStore } from "@reduxjs/toolkit";
 import resumeReducer from "./resumeSlice";
 
@@ -116,6 +120,7 @@ import { Button } from "@/components/ui/button";
 <Button className="w-full bg-blue-600 text-white">
   Generate Resume
 </Button>
+
 🏁 Getting Started
 Prerequisites
 Node.js (v18+ recommended)
@@ -147,23 +152,21 @@ bash
 Copy
 Edit
 npm run dev
+
 📸 Screenshots
-Dashboard	Resume Builder
-✨ Future Features
-PDF Export functionality
-More AI-powered suggestions
-Multi-language resume support
-Custom themes and templates
-🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Auth
+![image](https://github.com/user-attachments/assets/f84c2941-2baf-482b-aade-8561ea4eaf62)
+Home
+<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/5d1f7119-68da-4f2a-b8c9-72567f4d3442" />
 
-📄 License
-MIT License
+On Click of Dashboard
+![image](https://github.com/user-attachments/assets/b7510654-ad56-4d10-8020-b893c998dba5)
 
-yaml
-Copy
-Edit
+![image](https://github.com/user-attachments/assets/ab7a26d1-4066-4ced-83ff-8c8e9b7b043f)
+Resume with Unique UUID
+![image](https://github.com/user-attachments/assets/3b677179-47bb-4709-825e-469baa241edd)
 
+<<<<<<< HEAD
 ---
 
 ### ✅ How to use it:
@@ -172,3 +175,5 @@ Edit
 3. Replacee the placholder links (e.g., `https://github.com/your-username/ai-resume-builder.git`) and image paths (`./screenshots/dashboard.png`) with your actual URLs and image files.
 
 Let me know if you want badges or a logo section!
+=======
+>>>>>>> 5f56d5b717ee5f6f3bfd5cd2264a7b05a3f79c8d
