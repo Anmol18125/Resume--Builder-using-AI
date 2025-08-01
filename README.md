@@ -174,6 +174,3 @@ Resume with Unique UUID
 2. Paste it into your `README.md` file.
 3. Replacee the placholder links (e.g., `https://github.com/your-username/ai-resume-builder.git`) and image paths (`./screenshots/dashboard.png`) with your actual URLs and image files.
 
-Let me know if you want badges or a logo section!
-=======
->>>>>>> 5f56d5b717ee5f6f3bfd5cd2264a7b05a3f79c8d
